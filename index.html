@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dzień Matki</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Najlepsza Mama na Świecie!</h1>
+    <p>Dziękuję Ci za wszystko 💖</p>
+  </header>
+
+  <button class="presentation-btn">Zobacz prezentację</button>
+
+  <div id="presentation" class="presentation-overlay">
+    <div class="slide-container">
+      <div class="slide active">
+        <h2>Mamo!</h2>
+        <p>Jesteś najważniejszą osobą w moim życiu.</p>
+      </div>
+      <div class="slide">
+        <h2>Dziękuję</h2>
+        <p>Za Twoją troskę, cierpliwość i miłość.</p>
+      </div>
+      <div class="slide">
+        <h2>Kocham Cię!</h2>
+        <p>Na zawsze 💖</p>
+      </div>
+      <div class="slide">
+        <h2>Wiersz od Mateusza</h2>
+        <p>
+          Mamo Ole, moja droga,<br>
+          Kocham Cię całym sercem jak nikt inny wroga.<br>
+          Twoja miłość to skarb najcenniejszy,<br>
+          Dzięki Tobie świat jest piękniejszy.<br><br>
+          Mateusz
+        </p>
+      </div>
+      <div class="slide-buttons">
+        <button onclick="nextSlide()">Dalej</button>
+        <button onclick="closePresentation()">Zamknij</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
